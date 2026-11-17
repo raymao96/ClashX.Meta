@@ -86,18 +86,6 @@ download_and_gzip_rule "BundleMRS.7z"
 
 echo "install yacd dashboard"
 cd ClashX/Resources
-git clone -b gh-pages https://github.com/MetaCubeX/Yacd-meta.git dashboard/yacd --depth=1
+git clone -b gh-pages https://github.com/raymao96/Yacd-meta.git dashboard/yacd --depth=1
 cd dashboard/yacd
 rm -rf *.webmanifest *.js CNAME .git
-cd ../../
-
-echo "install XD dashboard"
-git clone -b gh-pages https://github.com/metacubex/metacubexd.git dashboard/xd --depth=1
-cd dashboard/xd
-rm -rf *.webmanifest CNAME .git
-cd ../../
-
-echo "install zashboard"
-git clone -b gh-pages https://github.com/Zephyruso/zashboard.git dashboard/zashboard --depth=1
-cd dashboard/zashboard
-rm -rf *.webmanifest CNAME .git

@@ -37,30 +37,6 @@ class MetaPrefsViewController: NSViewController {
 		updateNeedsRestart()
 	}
 	
-	// Dashboard
-	@IBOutlet var useSwiftuiButton: NSButton!
-	@IBOutlet var useYacdButton: NSButton!
-	@IBOutlet var useXDButton: NSButton!
-    @IBOutlet var useZashButton: NSButton!
-    
-    
-    @IBAction func switchDashboard(_ sender: NSButton) {
-		switch sender {
-		case useSwiftuiButton:
-			DashboardManager.shared.useSwiftUI = sender.state == .on
-		case useYacdButton:
-            ConfigManager.webDashboard = .yacd
-		case useXDButton:
-            ConfigManager.webDashboard = .metacubexd
-        case useZashButton:
-            ConfigManager.webDashboard = .zashboard
-		default:
-			break
-		}
-		initDashboardButtons()
-		updateNeedsRestart()
-	}
-	
 	// Alpha Core
 	@IBOutlet var useAlphaButton: NSButton!
 	@IBOutlet var alphaVersionTextField: NSTextField!
@@ -141,9 +117,6 @@ class MetaPrefsViewController: NSViewController {
 		tunDNSTextField.stringValue = ConfigManager.metaTunDNS
 		tunDNSTextField.delegate = self
 		
-		// Dashboard
-		initDashboardButtons()
-		
 		// Alpha Core
 		useAlphaButton.state = ConfigManager.useAlphaCore ? .on : .off
 		updateProgressIndicator.isHidden = true
@@ -154,30 +127,6 @@ class MetaPrefsViewController: NSViewController {
 		versionSnapshot = alphaVersionTextField.stringValue
 		restartTextField.isHidden = true
     }
-	
-	func initDashboardButtons() {
-		let useSwiftUI = DashboardManager.shared.useSwiftUI
-		let dashboard = ConfigManager.webDashboard
-		
-        useSwiftuiButton.isEnabled = true
-		useSwiftuiButton.state = useSwiftUI ? .on : .off
-        
-        let buttons = [useYacdButton, useXDButton, useZashButton]
-        
-        buttons.forEach {
-            $0?.state = .off
-            $0?.isEnabled = !useSwiftUI
-        }
-        
-        switch dashboard {
-        case .yacd:
-            useYacdButton.state = .on
-        case .metacubexd:
-            useXDButton.state = .on
-        case .zashboard:
-            useZashButton.state = .on
-        }
-	}
 	
 	func setAlphaVersion() {
 		if let alphaCorePath = Paths.alphaCorePath(),
@@ -211,7 +160,6 @@ class MetaPrefsViewController: NSViewController {
 	func takePrefsSnapshot() -> [String] {
 		[
 			ConfigManager.metaTunDNS,
-            ConfigManager.webDashboard.rawValue,
 			"\(ConfigManager.useAlphaCore)"
 		]
 	}
