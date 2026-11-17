@@ -1777,24 +1777,6 @@
         }
       }
     },
-    "p0T-J8-Emx.title" : {
-      "comment" : "Class = \"NSMenuItem\"; title = \"Check Update\"; ObjectID = \"p0T-J8-Emx\";",
-      "extractionState" : "extracted_with_value",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Check Update"
-          }
-        },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "檢測更新"
-          }
-        }
-      }
-    },
     "p7q-KN-kIv.title" : {
       "comment" : "Class = \"NSButtonCell\"; title = \"Use iCloud to store config files\"; ObjectID = \"p7q-KN-kIv\";",
       "extractionState" : "extracted_with_value",
