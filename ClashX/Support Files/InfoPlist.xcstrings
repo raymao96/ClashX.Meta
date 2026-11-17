@@ -11,12 +11,6 @@
             "value" : "ClashX Meta"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "ClashX Meta"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -35,16 +29,10 @@
             "value" : "Copyright © 2021年 yichengchen. All rights reserved."
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Copyright © 2021年 yichengchen. 保留所有权利。"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Copyright © 2021年 yichengchen. 保留所有權利。"
+            "value" : "Copyright © 2021年 yichengchen 版權所有"
           }
         }
       }
@@ -59,16 +47,10 @@
             "value" : "ClashX use location info to detect your current WiFi network SSID name and provide the auto suspend services."
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "ClashX 使用位置信息来检测当前 Wi-Fi 网络的 SSID 名称，以提供自动挂起服务。"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "ClashX 使用位置資訊來偵測目前 Wi-Fi 網路的 SSID 名稱，以提供自動掛起服務。"
+            "value" : "ClashX 使用位置資訊來偵測目前 Wi-Fi 網路的 SSID 名稱，以提供自動暫停服務。"
           }
         }
       }
@@ -83,16 +65,10 @@
             "value" : "ClashX use location info to detect your current WiFi network SSID name and provide the auto suspend services."
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "ClashX 使用位置信息来检测当前 Wi-Fi 网络的 SSID 名称，以提供自动挂起服务。"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "ClashX 使用位置資訊來偵測目前 Wi-Fi 網路的 SSID 名稱，以提供自動掛起服務。"
+            "value" : "ClashX 使用位置資訊來偵測目前 Wi-Fi 網路的 SSID 名稱，以提供自動暫停服務。"
           }
         }
       }

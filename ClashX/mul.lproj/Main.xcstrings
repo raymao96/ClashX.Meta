@@ -10,18 +10,6 @@
             "state" : "new",
             "value" : "ERROR"
           }
-        },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "ERROR"
-          }
-        },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "錯誤"
-          }
         }
       }
     },
@@ -34,6 +22,12 @@
             "state" : "new",
             "value" : "Find"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "尋找"
+          }
         }
       }
     },
@@ -45,12 +39,6 @@
           "stringUnit" : {
             "state" : "new",
             "value" : "Mode"
-          }
-        },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "代理模式"
           }
         },
         "zh-Hant" : {
@@ -71,16 +59,10 @@
             "value" : "Remote controller"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "远程控制器"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "遙控"
+            "value" : "控制台列表"
           }
         }
       }
@@ -107,12 +89,6 @@
             "value" : "Update"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "更新"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -131,16 +107,10 @@
             "value" : "Log level"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "日志等级"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "日誌等級"
+            "value" : "記錄等級"
           }
         }
       }
@@ -155,16 +125,10 @@
             "value" : "Debug"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "调试"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "調試"
+            "value" : "除錯"
           }
         }
       }
@@ -177,6 +141,12 @@
           "stringUnit" : {
             "state" : "new",
             "value" : "Find"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "尋找"
           }
         }
       }
@@ -191,10 +161,10 @@
             "value" : "Proxy providers"
           }
         },
-        "zh-Hans" : {
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "代理 Providers"
+            "value" : "節點服務商"
           }
         }
       }
@@ -206,12 +176,6 @@
         "en" : {
           "stringUnit" : {
             "state" : "new",
-            "value" : "Api Secret"
-          }
-        },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
             "value" : "Api Secret"
           }
         },
@@ -232,6 +196,12 @@
             "state" : "new",
             "value" : "Edit"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "編輯"
+          }
         }
       }
     },
@@ -243,12 +213,6 @@
           "stringUnit" : {
             "state" : "new",
             "value" : "Reset"
-          }
-        },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "重置"
           }
         },
         "zh-Hant" : {
@@ -268,6 +232,12 @@
             "state" : "new",
             "value" : "Redo"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "重做"
+          }
         }
       }
     },
@@ -281,16 +251,10 @@
             "value" : "Remote Configs"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "托管的配置文件"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "託管的配置文件"
+            "value" : "訂閱列表"
           }
         }
       }
@@ -299,16 +263,10 @@
       "comment" : "Class = \"NSTextFieldCell\"; title = \"Text Cell\"; ObjectID = \"7G6-oO-vNs\";",
       "extractionState" : "manual",
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Text Cell"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "文本單元格"
+            "value" : "文字儲存格"
           }
         }
       }
@@ -323,16 +281,10 @@
             "value" : "Copy shell command (External IP)"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "复制终端代理命令(外部IP)"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "複製shell命令（外網IP)"
+            "value" : "複製 Shell 指令（外網 IP）"
           }
         }
       }
@@ -347,16 +299,10 @@
             "value" : "Set as system proxy"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "设置为系统代理"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "設定為系統代理"
+            "value" : "啟用系統代理"
           }
         }
       }
@@ -369,12 +315,6 @@
           "stringUnit" : {
             "state" : "new",
             "value" : "Update external resources"
-          }
-        },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "更新外部资源"
           }
         },
         "zh-Hant" : {
@@ -395,16 +335,10 @@
             "value" : "External Controls"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "远程控制器"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "外部控制"
+            "value" : "控制台列表"
           }
         }
       }
@@ -419,16 +353,10 @@
             "value" : "Ports"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "端口"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "端口"
+            "value" : "連接埠"
           }
         }
       }
@@ -455,16 +383,10 @@
             "value" : "Add"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "添加"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "添加"
+            "value" : "新增"
           }
         }
       }
@@ -477,6 +399,12 @@
           "stringUnit" : {
             "state" : "new",
             "value" : "GitHub for ClashX Meta:"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ClashX Meta 的 GitHub："
           }
         }
       }
@@ -491,16 +419,10 @@
             "value" : "Rule"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "规则判断"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "規則判斷"
+            "value" : "分流模式"
           }
         }
       }
@@ -515,16 +437,10 @@
             "value" : "Open Log Folder"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "打开日志文件夹"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "打開日誌文件夾"
+            "value" : "開啟檔案位置"
           }
         }
       }
@@ -551,12 +467,6 @@
             "value" : "Other"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "其他"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -575,16 +485,10 @@
             "value" : "Proxy Helper"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "助手程序"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "代理助手"
+            "value" : "Proxy Helper"
           }
         }
       }
@@ -599,16 +503,10 @@
             "value" : "Uninstall Proxy Helper"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "移除助手程序"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "卸載代理程式"
+            "value" : "移除"
           }
         }
       }
@@ -623,16 +521,10 @@
             "value" : "Main Menu"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Main Menu"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "主菜單"
+            "value" : "主選單"
           }
         }
       }
@@ -647,16 +539,10 @@
             "value" : "Remote config"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "托管配置"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "託管配置"
+            "value" : "訂閱"
           }
         }
       }
@@ -671,16 +557,10 @@
             "value" : "Start at login"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "开机启动"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "開機啟動"
+            "value" : "開機自動啟動"
           }
         }
       }
@@ -693,12 +573,6 @@
           "stringUnit" : {
             "state" : "new",
             "value" : "Delete"
-          }
-        },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "删除"
           }
         },
         "zh-Hant" : {
@@ -717,12 +591,6 @@
           "stringUnit" : {
             "state" : "new",
             "value" : "Clash Settings (restart app to take effect)"
-          }
-        },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Clash设置(重启应用生效)"
           }
         },
         "zh-Hant" : {
@@ -755,16 +623,10 @@
             "value" : "Proxy"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "代理设置"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "代理"
+            "value" : "節點"
           }
         }
       }
@@ -779,16 +641,10 @@
             "value" : "Remote controller"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "远程控制器"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "遙控"
+            "value" : "控制台列表"
           }
         }
       }
@@ -801,6 +657,12 @@
           "stringUnit" : {
             "state" : "new",
             "value" : "Use Selection for Find"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "使用所選內容尋找"
           }
         }
       }
@@ -815,16 +677,10 @@
             "value" : "Log"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "日志"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "日誌"
+            "value" : "記錄"
           }
         }
       }
@@ -833,10 +689,10 @@
       "comment" : "Class = \"NSMenuItem\"; title = \"Hide unselectable\"; ObjectID = \"C3l-5G-vzB\";",
       "extractionState" : "manual",
       "localizations" : {
-        "zh-Hans" : {
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "隐藏不可选择的策略组"
+            "value" : "隱藏無法選取的節點分組"
           }
         }
       }
@@ -851,16 +707,10 @@
             "value" : "Url"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "链接"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "鏈接"
+            "value" : "連結"
           }
         }
       }
@@ -875,10 +725,10 @@
             "value" : "Rule providers"
           }
         },
-        "zh-Hans" : {
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "规则 Providers"
+            "value" : "分流規則服務商"
           }
         }
       }
@@ -893,16 +743,10 @@
             "value" : "Api Secret:"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Api秘钥"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "API 秘鑰"
+            "value" : "API Secret:"
           }
         }
       }
@@ -915,12 +759,6 @@
           "stringUnit" : {
             "state" : "new",
             "value" : "Benchmark"
-          }
-        },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "延迟测速"
           }
         },
         "zh-Hant" : {
@@ -965,12 +803,6 @@
             "value" : "INFO"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "INFO"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -989,16 +821,10 @@
             "value" : "Help"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "帮助"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "幫助"
+            "value" : "其他"
           }
         }
       }
@@ -1011,6 +837,12 @@
           "stringUnit" : {
             "state" : "new",
             "value" : "Undo"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "還原"
           }
         }
       }
@@ -1025,16 +857,10 @@
             "value" : "Launch at login"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "开机启动"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "登錄時啟動"
+            "value" : "登入時啟動"
           }
         }
       }
@@ -1046,12 +872,6 @@
         "en" : {
           "stringUnit" : {
             "state" : "new",
-            "value" : "SILENT"
-          }
-        },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
             "value" : "SILENT"
           }
         },
@@ -1073,16 +893,10 @@
             "value" : "Open config folder"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "打开配置文件夹"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "打開配置文件夾"
+            "value" : "開啟檔案位置"
           }
         }
       }
@@ -1095,12 +909,6 @@
           "stringUnit" : {
             "state" : "new",
             "value" : "Manage"
-          }
-        },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "管理"
           }
         },
         "zh-Hant" : {
@@ -1121,16 +929,10 @@
             "value" : "Proxy Benchmark Url:"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "代理延迟测试地址"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "代理延遲測試地址"
+            "value" : "自訂延遲測試位址："
           }
         }
       }
@@ -1145,16 +947,10 @@
             "value" : "Allow control from lan"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "允许局域网控制(不推荐)"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "允許局域網設備"
+            "value" : "啟用區域網路控制"
           }
         }
       }
@@ -1169,16 +965,10 @@
             "value" : "SSID Suspend"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "在特定 WiFi SSID 下自动暂停"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "SSID 掛起"
+            "value" : "Wi-Fi 黑名單（禁止代理）"
           }
         }
       }
@@ -1193,7 +983,7 @@
             "value" : "Meta"
           }
         },
-        "zh-Hans" : {
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Meta"
@@ -1211,16 +1001,10 @@
             "value" : "Please ensure to address any potential shortcut conflicts. Global shortcuts take precedence over regular shortcuts."
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "请务必注意处理可能存在的快捷键冲突,全局快捷键将优先于普通快捷键。"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "請確保解決任何潛在的快捷方式衝突，全局快捷方式優先於常規快捷方式"
+            "value" : "請確保已處理任何潛在的熱鍵衝突。全域熱鍵優先於一般熱鍵。"
           }
         }
       }
@@ -1229,12 +1013,6 @@
       "comment" : "Class = \"NSBox\"; title = \"Box\"; ObjectID = \"Gnh-m8-PAz\";",
       "extractionState" : "manual",
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Box"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1252,6 +1030,12 @@
             "state" : "new",
             "value" : "Close"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "中止"
+          }
         }
       }
     },
@@ -1263,6 +1047,12 @@
           "stringUnit" : {
             "state" : "new",
             "value" : "Paste"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "貼上"
           }
         }
       }
@@ -1277,16 +1067,10 @@
             "value" : "Remote config"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "托管配置"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "託管配置"
+            "value" : "訂閱列表"
           }
         }
       }
@@ -1301,16 +1085,10 @@
             "value" : "Set update interval"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "设置更新间隔"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "設定更新間隔"
+            "value" : "設定更新頻率"
           }
         }
       }
@@ -1323,12 +1101,6 @@
           "stringUnit" : {
             "state" : "new",
             "value" : " Manage"
-          }
-        },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "管理"
           }
         },
         "zh-Hant" : {
@@ -1349,16 +1121,10 @@
             "value" : "About"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "关于"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "關於"
+            "value" : "開發者資訊"
           }
         }
       }
@@ -1371,6 +1137,12 @@
           "stringUnit" : {
             "state" : "new",
             "value" : "api port:"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "API Port:"
           }
         }
       }
@@ -1385,16 +1157,10 @@
             "value" : "Update"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "更新"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "更新"
+            "value" : "手動更新訂閱"
           }
         }
       }
@@ -1403,12 +1169,6 @@
       "comment" : "Class = \"NSTextFieldCell\"; title = \"Text Cell\"; ObjectID = \"id7-f0-u56\";",
       "extractionState" : "manual",
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Text Cell"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1427,12 +1187,6 @@
             "value" : "Use Built-in clash api"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "使用Clash内置Api"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1448,12 +1202,6 @@
         "en" : {
           "stringUnit" : {
             "state" : "new",
-            "value" : "API Connect Error"
-          }
-        },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
             "value" : "API Connect Error"
           }
         },
@@ -1487,7 +1235,7 @@
             "value" : "Meta"
           }
         },
-        "zh-Hans" : {
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Meta"
@@ -1505,16 +1253,10 @@
             "value" : "Copy shell command"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "复制终端代理命令"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "複製終端代理命令"
+            "value" : "複製終端機代理指令"
           }
         }
       }
@@ -1529,16 +1271,10 @@
             "value" : "Configs"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "配置"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "配置"
+            "value" : "訂閱"
           }
         }
       }
@@ -1553,16 +1289,10 @@
             "value" : "Revert to previous proxy on proxy disabled"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "取消代理时还原更早的系统代理设置"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "停用代理后恢复先前的代理设置"
+            "value" : "當系統代理停用時，自動恢復先前的代理伺服器"
           }
         }
       }
@@ -1577,12 +1307,6 @@
             "value" : "Reduce notifications"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "减少通知"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1595,10 +1319,10 @@
       "comment" : "Class = \"NSMenu\"; title = \"Alpha Core\"; ObjectID = \"JYf-zC-xoj\";",
       "extractionState" : "manual",
       "localizations" : {
-        "zh-Hans" : {
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Alpha 内核"
+            "value" : "Alpha 核心"
           }
         }
       }
@@ -1613,16 +1337,10 @@
             "value" : "Debug"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "调试"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "調試"
+            "value" : "除錯"
           }
         }
       }
@@ -1635,12 +1353,6 @@
           "stringUnit" : {
             "state" : "new",
             "value" : "General"
-          }
-        },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "通用"
           }
         },
         "zh-Hant" : {
@@ -1658,12 +1370,6 @@
         "en" : {
           "stringUnit" : {
             "state" : "new",
-            "value" : "WARNING"
-          }
-        },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
             "value" : "WARNING"
           }
         },
@@ -1685,12 +1391,6 @@
             "value" : "Settings"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "更多设置"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1707,12 +1407,6 @@
           "stringUnit" : {
             "state" : "new",
             "value" : "Enable IPv6"
-          }
-        },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "启用IPv6"
           }
         },
         "zh-Hant" : {
@@ -1745,12 +1439,6 @@
             "value" : "Settings"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "ClashX 设置"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1769,16 +1457,10 @@
             "value" : "Crash Log Folder"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "崩溃日志文件夹"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "崩潰日誌文件夾"
+            "value" : "錯誤記錄"
           }
         }
       }
@@ -1793,16 +1475,10 @@
             "value" : "Config Name"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "配置文件名称"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "配置文件名稱"
+            "value" : "自訂名稱"
           }
         }
       }
@@ -1816,6 +1492,12 @@
             "state" : "new",
             "value" : "GitHub for Clash Meta:"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Clash Meta 的 GitHub："
+          }
         }
       }
     },
@@ -1827,12 +1509,6 @@
           "stringUnit" : {
             "state" : "new",
             "value" : "General"
-          }
-        },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "通用"
           }
         },
         "zh-Hant" : {
@@ -1853,16 +1529,10 @@
             "value" : "Override Config Setting"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "覆盖配置文件设置"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "覆蓋配置文件設置"
+            "value" : "覆寫訂閱設定檔"
           }
         }
       }
@@ -1877,16 +1547,10 @@
             "value" : "Api Port:"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Api 端口"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "API 端口"
+            "value" : "API Port:"
           }
         }
       }
@@ -1912,12 +1576,6 @@
             "state" : "new",
             "value" : "Sniffer"
           }
-        },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "域名嗅探"
-          }
         }
       }
     },
@@ -1925,10 +1583,10 @@
       "comment" : "Class = \"NSMenuItem\"; title = \"Download or update\"; ObjectID = \"MWh-yg-3Yk\";",
       "extractionState" : "manual",
       "localizations" : {
-        "zh-Hans" : {
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "下载或更新"
+            "value" : "下載或更新"
           }
         }
       }
@@ -1954,6 +1612,12 @@
             "state" : "new",
             "value" : "Ports"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "連接埠"
+          }
         }
       }
     },
@@ -1967,16 +1631,10 @@
             "value" : "Debug Setting"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "调试设置"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "調試設定"
+            "value" : "除錯設定"
           }
         }
       }
@@ -1991,16 +1649,10 @@
             "value" : "Update Channel"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "更新通道"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "更新通道"
+            "value" : "更新頻道"
           }
         }
       }
@@ -2015,16 +1667,10 @@
             "value" : "Direct"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "直接连接"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "直接連接"
+            "value" : "直連模式"
           }
         }
       }
@@ -2039,16 +1685,10 @@
             "value" : "Bypass proxy settings for these Hosts & Domains"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "忽略这些主机与域的代理设置"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "繞過這些主機和域的代理設定"
+            "value" : "自訂用戶分流規則"
           }
         }
       }
@@ -2063,16 +1703,10 @@
             "value" : "Quit"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "退出"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "退出"
+            "value" : "結束應用程式"
           }
         }
       }
@@ -2087,16 +1721,10 @@
             "value" : "Help"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "帮助"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "幫助"
+            "value" : "其他"
           }
         }
       }
@@ -2111,16 +1739,10 @@
             "value" : "Geo-IP Datebase"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Geo-IP数据库"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Geo-IP 数据库"
+            "value" : "Geo-IP 資料庫"
           }
         }
       }
@@ -2146,6 +1768,12 @@
             "state" : "new",
             "value" : "Find Previous"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "尋找上一個"
+          }
         }
       }
     },
@@ -2159,16 +1787,10 @@
             "value" : "Check Update"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "检查更新"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "檢查更新"
+            "value" : "檢測更新"
           }
         }
       }
@@ -2183,16 +1805,10 @@
             "value" : "Use iCloud to store config files"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "将配置文件存储在iCloud中"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "使用iCloud 存儲配置文件"
+            "value" : "將訂閱檔案儲存到 iCloud"
           }
         }
       }
@@ -2205,6 +1821,12 @@
           "stringUnit" : {
             "state" : "new",
             "value" : "Delete"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "刪除"
           }
         }
       }
@@ -2219,16 +1841,10 @@
             "value" : "App Setting"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "应用配置"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "應用配置"
+            "value" : "應用程式設定"
           }
         }
       }
@@ -2241,12 +1857,6 @@
           "stringUnit" : {
             "state" : "new",
             "value" : "Update"
-          }
-        },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "更新"
           }
         },
         "zh-Hant" : {
@@ -2279,10 +1889,10 @@
             "value" : "Proxy providers"
           }
         },
-        "zh-Hans" : {
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "代理供应商"
+            "value" : "節點服務商"
           }
         }
       }
@@ -2297,16 +1907,10 @@
             "value" : "Reload config"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "重载配置文件"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "重載配置文件"
+            "value" : "重載訂閱"
           }
         }
       }
@@ -2320,6 +1924,12 @@
             "state" : "new",
             "value" : "Find Next"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "尋找下一個"
+          }
         }
       }
     },
@@ -2331,6 +1941,12 @@
           "stringUnit" : {
             "state" : "new",
             "value" : "Name"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "名稱"
           }
         }
       }
@@ -2345,16 +1961,10 @@
             "value" : "Auto Update"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "自动更新"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "自動更新"
+            "value" : "自動更新訂閱"
           }
         }
       }
@@ -2363,28 +1973,10 @@
       "comment" : "Class = \"NSTextFieldCell\"; title = \"Text Cell\"; ObjectID = \"RCv-zz-HKW\";",
       "extractionState" : "manual",
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Text Cell"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Text Cell"
-          }
-        }
-      }
-    },
-    "rls-O1-mpQ.title" : {
-      "comment" : "Class = \"NSMenuItem\"; title = \"Set benchmark url\"; ObjectID = \"rls-O1-mpQ\";",
-      "extractionState" : "manual",
-      "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "设置延迟测速链接"
           }
         }
       }
@@ -2398,6 +1990,12 @@
             "state" : "new",
             "value" : "Select All"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "全選"
+          }
         }
       }
     },
@@ -2409,6 +2007,12 @@
           "stringUnit" : {
             "state" : "new",
             "value" : "Jump to Selection"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "跳至所選內容"
           }
         }
       }
@@ -2423,16 +2027,10 @@
             "value" : "External Manager"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "远程控制器"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "外部管理"
+            "value" : "控制台管理"
           }
         }
       }
@@ -2441,10 +2039,10 @@
       "comment" : "Class = \"NSMenu\"; title = \"Experimental\"; ObjectID = \"sbS-Fj-gxn\";",
       "extractionState" : "manual",
       "localizations" : {
-        "zh-Hans" : {
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "试验性功能"
+            "value" : "實驗性功能"
           }
         }
       }
@@ -2459,16 +2057,10 @@
             "value" : "Separated by commas(,)"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "使用英文逗号(,)分隔"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "以逗號(,)分隔"
+            "value" : "多個項目請用逗號 (,) 隔開"
           }
         }
       }
@@ -2477,10 +2069,10 @@
       "comment" : "Class = \"NSMenuItem\"; title = \"Use alpha meta\"; ObjectID = \"sk5-MZ-XB1\";",
       "extractionState" : "manual",
       "localizations" : {
-        "zh-Hans" : {
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "使用 alpha meta"
+            "value" : "使用 Alpha Meta"
           }
         }
       }
@@ -2489,10 +2081,10 @@
       "comment" : "Class = \"NSMenuItem\"; title = \"Version: none\"; ObjectID = \"Stq-Vy-QaD\";",
       "extractionState" : "manual",
       "localizations" : {
-        "zh-Hans" : {
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "版本: 未知"
+            "value" : "版本：未知"
           }
         }
       }
@@ -2507,16 +2099,10 @@
             "value" : "Configs"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "配置"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "配置"
+            "value" : "訂閱"
           }
         }
       }
@@ -2531,16 +2117,10 @@
             "value" : "Configs"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "托管的配置文件："
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "託管的配置文件："
+            "value" : "訂閱列表"
           }
         }
       }
@@ -2555,16 +2135,10 @@
             "value" : "Quit ClashX"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "退出 ClashX"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "退出 ClashX"
+            "value" : "結束 ClashX"
           }
         }
       }
@@ -2573,10 +2147,10 @@
       "comment" : "Class = \"NSMenuItem\"; title = \"Requires restart  ⚠️\"; ObjectID = \"u64-fu-xPW\";",
       "extractionState" : "manual",
       "localizations" : {
-        "zh-Hans" : {
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "需要重启  ⚠️"
+            "value" : "需要重新啟動  ⚠️"
           }
         }
       }
@@ -2602,6 +2176,12 @@
             "state" : "new",
             "value" : "Cut"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "剪下"
+          }
         }
       }
     },
@@ -2612,12 +2192,6 @@
         "en" : {
           "stringUnit" : {
             "state" : "new",
-            "value" : "iCloud"
-          }
-        },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
             "value" : "iCloud"
           }
         },
@@ -2639,12 +2213,6 @@
             "value" : "API Connect Error"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "API Connect Error"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2663,16 +2231,10 @@
             "value" : "Proxy Port:"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "代理端口"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "代理端口"
+            "value" : "Proxy Port:"
           }
         }
       }
@@ -2686,6 +2248,12 @@
             "state" : "new",
             "value" : "socks port:"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Socks Port:"
+          }
         }
       }
     },
@@ -2693,16 +2261,10 @@
       "comment" : "Class = \"NSMenuItem\"; title = \"Connection Details\"; ObjectID = \"v4s-jd-g1N\";",
       "extractionState" : "manual",
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "连接查看器"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "連接詳情"
+            "value" : "連線資訊"
           }
         }
       }
@@ -2717,16 +2279,10 @@
             "value" : "Allow connect from Lan"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "允许局域网连接"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "允許局域網連接"
+            "value" : "啟用區域網路代理"
           }
         }
       }
@@ -2739,6 +2295,12 @@
           "stringUnit" : {
             "state" : "new",
             "value" : "Edit"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "編輯"
           }
         }
       }
@@ -2753,16 +2315,10 @@
             "value" : "Open"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "打开"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "打開"
+            "value" : "開啟"
           }
         }
       }
@@ -2777,10 +2333,10 @@
             "value" : "Rule providers"
           }
         },
-        "zh-Hans" : {
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "规则供应商"
+            "value" : "分流規則服務商"
           }
         }
       }
@@ -2795,16 +2351,10 @@
             "value" : "This allows you to control the clash core running in the different machine"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "远程控制器允许你控制其他设备上的 Clash 状态。"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "這允許你控制在不同機器上運行的衝突核心"
+            "value" : "您可以在不同裝置上控制 Clash Core。"
           }
         }
       }
@@ -2819,16 +2369,10 @@
             "value" : "Global ShortCut"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "全局快捷键"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "全局快捷方式"
+            "value" : "全域熱鍵"
           }
         }
       }
@@ -2837,10 +2381,10 @@
       "comment" : "Class = \"NSMenuItem\"; title = \"Alpha Core\"; ObjectID = \"WNb-4C-MWu\";",
       "extractionState" : "manual",
       "localizations" : {
-        "zh-Hans" : {
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Alpha 内核"
+            "value" : "Alpha 核心"
           }
         }
       }
@@ -2853,6 +2397,12 @@
           "stringUnit" : {
             "state" : "new",
             "value" : "http port:"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Http Port:"
           }
         }
       }
@@ -2867,16 +2417,10 @@
             "value" : "Log level"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "日志等级"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "日誌等級"
+            "value" : "記錄等級"
           }
         }
       }
@@ -2891,10 +2435,10 @@
             "value" : "Flush dns cache"
           }
         },
-        "zh-Hans" : {
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "清空 dns 缓存"
+            "value" : "清理 DNS 快取"
           }
         }
       }
@@ -2909,10 +2453,10 @@
             "value" : "Update GEO databases"
           }
         },
-        "zh-Hans" : {
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "更新 Geo 数据库"
+            "value" : "更新 GEO 資料庫"
           }
         }
       }
@@ -2926,6 +2470,12 @@
             "state" : "new",
             "value" : "Copy"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "複製"
+          }
         }
       }
     },
@@ -2938,6 +2488,12 @@
             "state" : "new",
             "value" : "Never"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "永不"
+          }
         }
       }
     },
@@ -2949,12 +2505,6 @@
           "stringUnit" : {
             "state" : "new",
             "value" : "Dashboard"
-          }
-        },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "控制台"
           }
         },
         "zh-Hant" : {
@@ -2974,18 +2524,6 @@
             "state" : "new",
             "value" : "DEBUG"
           }
-        },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "DEBUG"
-          }
-        },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "調試"
-          }
         }
       }
     },
@@ -2999,16 +2537,10 @@
             "value" : "Separated by commas(,)"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "使用英文逗号(,)分隔"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "以逗號(,)分隔"
+            "value" : "多個項目請用逗號 (,) 隔開"
           }
         }
       }
@@ -3023,16 +2555,10 @@
             "value" : "Update Time"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "更新时间"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "更新時間"
+            "value" : "上次更新"
           }
         }
       }
@@ -3047,16 +2573,10 @@
             "value" : "Show Log"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "显示日志"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "顯示日誌"
+            "value" : "顯示記錄"
           }
         }
       }
@@ -3070,6 +2590,12 @@
             "state" : "new",
             "value" : "Find…"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "尋找⋯"
+          }
         }
       }
     },
@@ -3081,6 +2607,12 @@
           "stringUnit" : {
             "state" : "new",
             "value" : "Find and Replace…"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "尋找並取代⋯"
           }
         }
       }
@@ -3095,16 +2627,10 @@
             "value" : "Local"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "本地"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "本地"
+            "value" : "本機"
           }
         }
       }
@@ -3117,12 +2643,6 @@
           "stringUnit" : {
             "state" : "new",
             "value" : "Delete"
-          }
-        },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "删除"
           }
         },
         "zh-Hant" : {
@@ -3143,16 +2663,10 @@
             "value" : "Global"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "全局连接"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "全局"
+            "value" : "全局模式"
           }
         }
       }
@@ -3167,16 +2681,10 @@
             "value" : "Show network indicator"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "显示实时速率"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "顯示網絡指示器"
+            "value" : "顯示流量動態"
           }
         }
       }
@@ -3188,12 +2696,6 @@
         "en" : {
           "stringUnit" : {
             "state" : "new",
-            "value" : "Api Url"
-          }
-        },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
             "value" : "Api Url"
           }
         },
@@ -3215,12 +2717,6 @@
             "value" : "Reset"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "重置"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3239,16 +2735,10 @@
             "value" : "Config Folder"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "配置文件夹"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "配置文件夾"
+            "value" : "檔案所在位置"
           }
         }
       }
@@ -3263,16 +2753,10 @@
             "value" : "Add"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "添加"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "添加"
+            "value" : "新增"
           }
         }
       }
@@ -3287,10 +2771,10 @@
             "value" : "Tun mode"
           }
         },
-        "zh-Hans" : {
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Tun 模式"
+            "value" : "啟用 Tun 模式"
           }
         }
       }
@@ -3303,12 +2787,6 @@
           "stringUnit" : {
             "state" : "new",
             "value" : "Core Version"
-          }
-        },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "内核版本"
           }
         },
         "zh-Hant" : {

@@ -11,16 +11,10 @@
             "value" : "Use local DNS (recommended)"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "推荐使用本地 DNS"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "建議使用本地 DNS"
+            "value" : "建議使用本機 DNS"
           }
         }
       }
@@ -33,12 +27,6 @@
           "stringUnit" : {
             "state" : "new",
             "value" : "Update"
-          }
-        },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "更新"
           }
         },
         "zh-Hant" : {
@@ -59,12 +47,6 @@
             "value" : "Show in Finder"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "在 Finder 中显示"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -80,12 +62,6 @@
         "en" : {
           "stringUnit" : {
             "state" : "new",
-            "value" : "SwiftUI"
-          }
-        },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
             "value" : "SwiftUI"
           }
         },
@@ -107,12 +83,6 @@
             "value" : "zashboard"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "zashboard"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -131,16 +101,10 @@
             "value" : "Dashboard:"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "仪表板："
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "儀表板："
+            "value" : "首頁："
           }
         }
       }
@@ -153,12 +117,6 @@
           "stringUnit" : {
             "state" : "new",
             "value" : "Label"
-          }
-        },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "标签"
           }
         },
         "zh-Hant" : {
@@ -179,12 +137,6 @@
             "value" : "Use alpha meta"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "使用 alpha meta"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -203,12 +155,6 @@
             "value" : "Alpha Core"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Alpha 核心"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -224,12 +170,6 @@
         "en" : {
           "stringUnit" : {
             "state" : "new",
-            "value" : "metacubexd"
-          }
-        },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
             "value" : "metacubexd"
           }
         },
@@ -251,16 +191,10 @@
             "value" : "Hide unselectable"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "隐藏不可选项"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "隱藏不可選項"
+            "value" : "隱藏無法選取的項目"
           }
         }
       }
@@ -273,12 +207,6 @@
           "stringUnit" : {
             "state" : "new",
             "value" : "Meta Setting"
-          }
-        },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Meta 设置"
           }
         },
         "zh-Hant" : {
@@ -296,12 +224,6 @@
         "en" : {
           "stringUnit" : {
             "state" : "new",
-            "value" : "0.0.0.0"
-          }
-        },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
             "value" : "0.0.0.0"
           }
         },
@@ -323,16 +245,10 @@
             "value" : "Tun DNS:"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Tun DNS："
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "TUN DNS："
+            "value" : "Tun DNS："
           }
         }
       }
@@ -344,12 +260,6 @@
         "en" : {
           "stringUnit" : {
             "state" : "new",
-            "value" : "Yacd-meta"
-          }
-        },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
             "value" : "Yacd-meta"
           }
         },
@@ -371,12 +281,6 @@
             "value" : "Version: "
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "版本："
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -395,16 +299,10 @@
             "value" : "Requires restart ClashX Meta to take effect."
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "需要重启 ClashX Meta 才会生效。"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "需要重新啟動 ClashX Meta 才會生效。"
+            "value" : "需要重新啟動 ClashX Meta 才能套用變更。"
           }
         }
       }

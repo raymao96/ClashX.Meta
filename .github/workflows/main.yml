@@ -1,9 +1,19 @@
 name: ClashX
 
 on:
-  push:
-    tags: [ v* ]
   workflow_dispatch:
+    inputs:
+      version:
+        description: '發布版本（例如 v1.4.48；留空使用最新上游版本）'
+        required: false
+        type: string
+
+permissions:
+  contents: write
+
+concurrency:
+  group: release-${{ github.ref }}
+  cancel-in-progress: false
 
 jobs:
   build:
@@ -11,12 +21,33 @@ jobs:
     env:
       MIHOMO_TAG: v1.19.34
       GH_TOKEN: ${{ github.token }}
-      
-    steps:
 
+    steps:
     - uses: actions/checkout@v6
       with:
         fetch-depth: 0
+
+    - name: determine release version
+      id: release
+      env:
+        INPUT_VERSION: ${{ inputs.version }}
+      run: |
+        case "$GITHUB_REF" in
+          refs/heads/meta-tw) locale=TW; prefix=tw ;;
+          refs/heads/meta-cn) locale=CN; prefix=cn ;;
+          *) echo "Select the meta-tw or meta-cn branch." >&2; exit 1 ;;
+        esac
+        version="$INPUT_VERSION"
+        if [ -z "$version" ]; then
+          version="$(git describe --tags --match 'v[0-9]*' --abbrev=0)"
+        fi
+        if [[ ! "$version" =~ ^v[0-9]+\.[0-9]+\.[0-9]+$ ]]; then
+          echo "Version must have the format vX.X.X: $version" >&2
+          exit 1
+        fi
+        echo "version=$version" >> "$GITHUB_OUTPUT"
+        echo "tag=$prefix-$version" >> "$GITHUB_OUTPUT"
+        echo "title=ClashX Meta $locale $version" >> "$GITHUB_OUTPUT"
 
     - name: install deps
       run: |
@@ -24,20 +55,19 @@ jobs:
         xcodebuild -resolvePackageDependencies -project ClashX.xcodeproj
 
     - name: build infos
+      env:
+        RELEASE_VERSION: ${{ steps.release.outputs.version }}
       run: |
-        /usr/libexec/PlistBuddy -c "Set CFBundleVersion $(git rev-list --count origin/master..origin/meta)" ClashX/Info.plist
-        /usr/libexec/PlistBuddy -c "Set CFBundleShortVersionString $(git describe --tags --abbrev=0)" ClashX/Info.plist
+        meta_commit="$(git rev-parse --verify refs/remotes/origin/meta^{commit})"
+        meta_count="$(git rev-list --count "$meta_commit")"
+        locale_count="$(git rev-list --count "$meta_commit..HEAD")"
+        build_number="$((meta_count + locale_count))"
+        /usr/libexec/PlistBuddy -c "Set CFBundleVersion $build_number" ClashX/Info.plist
+        /usr/libexec/PlistBuddy -c "Set CFBundleShortVersionString $RELEASE_VERSION" ClashX/Info.plist
         /usr/libexec/PlistBuddy -c "Add coreVersion string $MIHOMO_TAG" ClashX/Info.plist
         /usr/libexec/PlistBuddy -c "Add gitBranch string $GITHUB_REF_NAME" ClashX/Info.plist
         /usr/libexec/PlistBuddy -c "Add gitCommit string ${GITHUB_SHA::7}" ClashX/Info.plist
         /usr/libexec/PlistBuddy -c "Add buildTime string $(date +%Y-%m-%d\ %H:%M)" ClashX/Info.plist
-
-        /usr/libexec/PlistBuddy -c 'Print CFBundleVersion' ClashX/Info.plist
-        /usr/libexec/PlistBuddy -c 'Print CFBundleShortVersionString' ClashX/Info.plist
-        /usr/libexec/PlistBuddy -c 'Print coreVersion' ClashX/Info.plist
-        /usr/libexec/PlistBuddy -c 'Print gitBranch' ClashX/Info.plist
-        /usr/libexec/PlistBuddy -c 'Print gitCommit' ClashX/Info.plist
-        /usr/libexec/PlistBuddy -c 'Print buildTime' ClashX/Info.plist
 
     - name: build
       run: |
@@ -46,73 +76,16 @@ jobs:
     - name: create zip
       run: ditto -c -k --sequesterRsrc --keepParent archive/ClashX.xcarchive/Products/Applications/ClashX\ Meta.app "ClashX Meta.zip"
 
-
-    - name: upload Artifact
-      uses: actions/upload-artifact@v7
-      if: "!startsWith(github.ref, 'refs/tags/')"
-      with:
-        name: "ClashX Meta.zip"
-        path: "*.zip"
-
-    - name: load sparkle-repo
-      uses: actions/checkout@v6
-      if: startsWith(github.ref, 'refs/tags/')
-      with:
-        ref: sparkle
-        path: 'sparkle-repo'
-
-    - name: preprocess sparkle-repo
-      if: startsWith(github.ref, 'refs/tags/')
-      run: |
-        rm -f sparkle-repo/*.delta
-        rm -rf sparkle-repo/old_updates
-
-        cd sparkle-repo
-        ruby <<'RUBY'
-        archives = Dir.glob('ClashX Meta *.zip')
-        sorted_archives = archives.sort_by do |archive|
-          version = archive[/ClashX Meta (.+)\.zip\z/, 1] || archive
-          Gem::Version.new(version.sub(/\Av/, ''))
-        end
-
-        if sorted_archives.length > 2
-          sorted_archives[0...-2].each { |archive| File.delete(archive) }
-        end
-        RUBY
-        cd ..
-
-    - name: update sparkle-repo
-      if: startsWith(github.ref, 'refs/tags/')
-      run: |
-        git config --global user.name "github-actions[bot]"
-        git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-
-        cp "ClashX Meta.zip" "sparkle-repo/ClashX Meta $GITHUB_REF_NAME.zip"
-        
-        gh release download -R sparkle-project/Sparkle -p 'Sparkle-*.tar.xz' -D /tmp --clobber
-        tar -xJf /tmp/Sparkle-*.tar.xz -C /tmp --strip-components=1 bin/generate_appcast
-        
-        echo '${{ secrets.ED_KEY }}' | /tmp/bin/generate_appcast --maximum-deltas 2 --ed-key-file - sparkle-repo
-        
-        cd sparkle-repo
-        git checkout --orphan temp-sparkle
-
-        git add -A
-        git commit -m "Sparkle updates - $GITHUB_REF_NAME"
-      
-
-        git branch -D sparkle
-        git checkout -b sparkle
-        git branch -D temp-sparkle
-
-        git push --force-with-lease origin sparkle
-
-    - name: upload build to github
-      uses: softprops/action-gh-release@v3
-      if: startsWith(github.ref, 'refs/tags/')
+    - name: publish release
       env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      with:
-        generate_release_notes: true
-        files: |
-          ClashX Meta.zip
+        RELEASE_TAG: ${{ steps.release.outputs.tag }}
+        RELEASE_TITLE: ${{ steps.release.outputs.title }}
+      run: |
+        git tag -f "$RELEASE_TAG" "$GITHUB_SHA"
+        git push origin "refs/tags/$RELEASE_TAG:refs/tags/$RELEASE_TAG" --force
+        if gh release view "$RELEASE_TAG" >/dev/null 2>&1; then
+          gh release upload "$RELEASE_TAG" "ClashX Meta.zip" --clobber
+          gh release edit "$RELEASE_TAG" --title "$RELEASE_TITLE" --draft=false
+        else
+          gh release create "$RELEASE_TAG" "ClashX Meta.zip" --verify-tag --title "$RELEASE_TITLE" --generate-notes
+        fi

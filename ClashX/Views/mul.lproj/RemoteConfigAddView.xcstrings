@@ -23,16 +23,10 @@
             "value" : "Age Secret Key:"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Age 私钥："
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Age 私鑰："
+            "value" : "Age Secret Key:"
           }
         }
       }
@@ -59,16 +53,10 @@
             "value" : "Url:"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "链接："
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "連結："
+            "value" : "訂閱連結："
           }
         }
       }
@@ -83,16 +71,10 @@
             "value" : "Config Name:"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "配置名称："
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "設定名稱："
+            "value" : "自訂名稱："
           }
         }
       }
@@ -105,12 +87,6 @@
           "stringUnit" : {
             "state" : "new",
             "value" : "(Optional)"
-          }
-        },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "（可选）"
           }
         },
         "zh-Hant" : {

@@ -3,12 +3,6 @@
   "strings" : {
     "" : {
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : ""
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20,12 +14,6 @@
     " ago" : {
       "comment" : "Provider update time title",
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "前"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -36,12 +24,6 @@
     },
     "[TFO]" : {
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "[TFO]"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -54,23 +36,31 @@
 
     },
     "%lld nodes" : {
-
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld 個節點"
+          }
+        }
+      }
     },
     "%lld rules" : {
-
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld 條規則"
+          }
+        }
+      }
     },
     "Active" : {
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "machine_translated",
-            "value" : "活动"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "machine_translated",
-            "value" : "活動"
+            "state" : "translated",
+            "value" : "作用中"
           }
         }
       }
@@ -84,60 +74,36 @@
             "value" : "Active Connections"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "活动连接"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "活動連線"
+            "value" : "作用中的連線"
           }
         }
       }
     },
     "Add a remote config" : {
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "添加托管配置文件"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "添加託管配置文件"
+            "value" : "新增訂閱"
           }
         }
       }
     },
     "Add a remote control config" : {
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "添加远程控制器配置"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "添加遠程控制器配置"
+            "value" : "新增遙控方式"
           }
         }
       }
     },
     "All" : {
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "machine_translated",
-            "value" : "全部"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "machine_translated",
@@ -148,16 +114,10 @@
     },
     "Allow LAN" : {
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "允许局域网"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "允許區域網路"
+            "value" : "啟用區域網路代理"
           }
         }
       }
@@ -168,12 +128,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "If you don't know what you're doing, never turn this switch on.\nRunning Meta Core without any authentication under 'su' privileges may damage your mac."
-          }
-        },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "如果你不知道你在做什么, 请绝对不要打开这个开关.\n在 'su' 权限下运行未经验证的 Meta 核心, 可能损坏你的 mac."
           }
         },
         "zh-Hant" : {
@@ -189,92 +143,56 @@
     },
     "Apply and Quit" : {
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "应用并退出"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "應用並退出"
+            "value" : "套用變更並結束應用程式"
           }
         }
       }
     },
     "Benchmark" : {
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "延迟测速"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "延遲測速"
+            "value" : "一鍵測速"
           }
         }
       }
     },
     "Benchmark Finished!" : {
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "延迟测速完成"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "延遲測速完成"
+            "value" : "測速完成"
           }
         }
       }
     },
     "Benchmark has begun, please wait." : {
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "延迟测速开始，请稍候"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "延遲測速開始，請稍候"
+            "value" : "測速已開始，請稍候"
           }
         }
       }
     },
     "Benchmark is processing, please wait." : {
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "延迟测速正在进行中，请稍候。"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "延遲測速正在進行中，請稍候。"
+            "value" : "正在測速中，請稍候。"
           }
         }
       }
     },
     "Cancel" : {
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "取消"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -286,12 +204,6 @@
     "Chain" : {
       "extractionState" : "manual",
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "链路"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -309,44 +221,26 @@
             "value" : "ClashX fail to create ~/.config/clash.meta folder. Please check privileges or manually create folder and restart ClashX."
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "ClashX 无法创建 ~/.config/clash.meta 文件夹。请检查权限或手动创建文件夹后重启 ClashX。"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "ClashX 無法建立 ~/.config/clash.meta 資料夾。請檢查權限或手動建立資料夾後重新啟動 ClashX。"
+            "value" : "ClashX 無法建立 ~/.config/clash.meta 資料夾。請檢查權限或手動建立資料夾後重新啟動應用程式。"
           }
         }
       }
     },
     "ClashX needs to install/update a helper tool with administrator privileges, otherwise ClashX won't be able to configure system proxy." : {
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "ClashX 需要使用管理员权限安装/更新一个帮助程序，否则 ClashX 将无法设置系统代理。"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "ClashX 需要使用管理員權限安裝/更新一個幫助程序，否則 ClashX 將無法設定系統代理。"
+            "value" : "ClashX 需要管理員權限以安裝輔助程式，否則將無法設定系統代理。"
           }
         }
       }
     },
     "ClashX Start Error!" : {
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "ClashX 启动出错"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -357,16 +251,10 @@
     },
     "ClashX use a daemon helper to setup your system proxy. Please enable ClashX in the Login Items under the Allow in the Background section and relaunch the app" : {
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "ClashX需要通过后台Daemon进程来设置系统代理，请在\"系统偏好设置->登录项->允许在后台 中\"允许ClashX"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "ClashX需要通過後台Daemon進程來設定系統代理，請在\"系統偏好設定->登錄項->允許在後台 中\"允許ClashX"
+            "value" : "ClashX 需要透過後台Daemon進程來設定系統代理，請在【系統設定】-【一般】-【登入項目與延伸功能】-【允許在背景中】選取 ClashX。"
           }
         }
       }
@@ -374,16 +262,10 @@
     "Click OK to quit the app and apply change." : {
       "extractionState" : "stale",
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "确认清理并退出软件"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "確認清理併退出軟件"
+            "value" : "確認清理並結束應用程式"
           }
         }
       }
@@ -397,12 +279,6 @@
             "value" : "Client"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "客户端"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -413,44 +289,26 @@
     },
     "Close All Filtered Connections" : {
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "machine_translated",
-            "value" : "关闭所有过滤后的连接"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "machine_translated",
-            "value" : "關閉所有篩選後的連線"
+            "state" : "translated",
+            "value" : "中止所有篩選後的連線"
           }
         }
       }
     },
     "Close Filtered Connections" : {
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "machine_translated",
-            "value" : "关闭筛选结果"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "machine_translated",
-            "value" : "關閉篩選結果"
+            "state" : "translated",
+            "value" : "中止篩選後的連線"
           }
         }
       }
     },
     "Closed" : {
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "machine_translated",
-            "value" : "已断开"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "machine_translated",
@@ -462,12 +320,6 @@
     "Config" : {
       "extractionState" : "manual",
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "配置"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -478,48 +330,30 @@
     },
     "Config file have been changed" : {
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "配置文件已被修改"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "配置文件已被修改"
+            "value" : "訂閱檔已變更"
           }
         }
       }
     },
     "Config loading Fail!" : {
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "配置文件加载失败"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "配置文件加載失敗"
+            "value" : "無法載入訂閱檔"
           }
         }
       }
     },
     "Connecting" : {
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "连接中"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "連接中"
+            "value" : "連線中"
           }
         }
       }
@@ -527,10 +361,10 @@
     "Connection lost. Retrying automatically." : {
       "extractionState" : "stale",
       "localizations" : {
-        "zh-Hans" : {
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "连接丢失，正在自动重试。"
+            "value" : "連線中斷，正在自動重試。"
           }
         }
       }
@@ -544,12 +378,6 @@
             "value" : "Type"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "连接类型"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -560,12 +388,6 @@
     },
     "Connections" : {
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "连接数"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -577,12 +399,6 @@
     "Conns" : {
       "extractionState" : "manual",
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "连接"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -593,12 +409,6 @@
     },
     "Continue" : {
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "继续"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -609,12 +419,6 @@
     },
     "Copy API address" : {
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "复制 API 地址"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -625,12 +429,6 @@
     },
     "Copy Shell Command" : {
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "复制终端代理命令"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -641,48 +439,30 @@
     },
     "Copy Shell Command (External)" : {
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "复制终端代理命令(外部IP)"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "複製終端代理命令(外部IP)"
+            "value" : "複製終端機代理指令（外部 IP）"
           }
         }
       }
     },
     "Copy terminal proxy command" : {
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "machine_translated",
-            "value" : "复制终端代理命令"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "machine_translated",
-            "value" : "複製終端代理命令"
+            "state" : "translated",
+            "value" : "複製終端機代理指令"
           }
         }
       }
     },
     "Core" : {
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "内核版本"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "內核版本"
+            "value" : "核心版本"
           }
         }
       }
@@ -690,20 +470,20 @@
     "Core Disconnected" : {
       "extractionState" : "stale",
       "localizations" : {
-        "zh-Hans" : {
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "核心已断开连接"
+            "value" : "核心連線已中斷"
           }
         }
       }
     },
     "Core Process Crashed" : {
       "localizations" : {
-        "zh-Hans" : {
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "核心进程已崩溃"
+            "value" : "核心服務已終止"
           }
         }
       }
@@ -716,32 +496,20 @@
             "value" : "Create age config file failed"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "创建 age 配置文件失败"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "建立 age 配置檔案失敗"
+            "value" : "無法建立 age 訂閱檔"
           }
         }
       }
     },
     "Current SSID is in the auto-suspend list." : {
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "当前 SSID 在自动暂停列表中。"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "目前 SSID 在自動暫停清單中。"
+            "value" : "目前連線的 Wi-Fi 在禁止代理的黑名單上"
           }
         }
       }
@@ -749,16 +517,10 @@
     "Custom your GEOIP MMDB download address." : {
       "extractionState" : "stale",
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "自定义下载地址"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "自定義下載地址"
+            "value" : "自訂 GEOIP 下載位址"
           }
         }
       }
@@ -770,12 +532,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Date"
-          }
-        },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "时间"
           }
         },
         "zh-Hant" : {
@@ -794,16 +550,10 @@
             "value" : "Decrypt config fail"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "解密配置失败"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "解密配置失敗"
+            "value" : "無法解密訂閱檔"
           }
         }
       }
@@ -811,12 +561,6 @@
     "Destination IP" : {
       "extractionState" : "manual",
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "目标 IP"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -834,28 +578,16 @@
             "value" : "Details"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "查看详情"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "查看詳情"
+            "value" : "更多資訊"
           }
         }
       }
     },
     "Device Name" : {
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "设备名称"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -866,12 +598,6 @@
     },
     "Direct" : {
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "直连"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -882,16 +608,10 @@
     },
     "Direct Mode" : {
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "直接连接"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "直接連接"
+            "value" : "直連模式"
           }
         }
       }
@@ -899,12 +619,6 @@
     "DL" : {
       "extractionState" : "manual",
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "下行"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -916,12 +630,6 @@
     "DL Speed" : {
       "extractionState" : "manual",
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "下载速度"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -932,28 +640,16 @@
     },
     "Do you want to enable the proxy anyway? This override will be cleared when you switch WiFi or restart ClashX." : {
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "仍要启用代理吗？当你切换 WiFi 或重启 ClashX 时，此覆盖将被清除。"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "仍要啟用代理嗎？當你切換 WiFi 或重新啟動 ClashX 時，此覆寫會被清除。"
+            "value" : "仍要啟用代理嗎？當您切換 WiFi 或重新啟動 ClashX 時，此設定將被重置。"
           }
         }
       }
     },
     "Done" : {
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "完成"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -964,12 +660,6 @@
     },
     "Down" : {
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "下载"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -987,12 +677,6 @@
             "value" : "Download"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "下载速度"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1003,28 +687,16 @@
     },
     "Download fail" : {
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "下载失败"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "下載失敗"
+            "value" : "無法下載"
           }
         }
       }
     },
     "Download Meta core" : {
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "下载 Meta 内核"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1035,12 +707,6 @@
     },
     "Download Total" : {
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "总下载"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1051,44 +717,26 @@
     },
     "Edit in Text Mode" : {
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "编辑配置"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "編輯配置"
+            "value" : "編輯訂閱檔"
           }
         }
       }
     },
     "Empty" : {
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "空"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "空"
+            "value" : "尚無內容"
           }
         }
       }
     },
     "Enable Anyway" : {
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "仍然启用"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1099,32 +747,20 @@
     },
     "Enable TUN Device" : {
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "启用 TUN 设备"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "啟用 TUN 裝置"
+            "value" : "啟用 Tun 裝置"
           }
         }
       }
     },
     "Enhance proxy list render" : {
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "增强代理列表渲染"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "增強代理列表渲染"
+            "value" : "提升節點列表渲染效能"
           }
         }
       }
@@ -1132,12 +768,6 @@
     "Expire" : {
       "extractionState" : "manual",
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "到期"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1148,12 +778,6 @@
     },
     "Expire: %@" : {
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "到期：%@"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1164,12 +788,6 @@
     },
     "fail" : {
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "失败"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1180,12 +798,6 @@
     },
     "Fail" : {
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "失败"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1197,12 +809,6 @@
     "Fail:" : {
       "extractionState" : "stale",
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "失败："
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1213,16 +819,10 @@
     },
     "fails: %@" : {
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "失败: %@"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "失敗: %@"
+            "value" : "失敗：%@"
           }
         }
       }
@@ -1232,28 +832,16 @@
     },
     "Flush dns cache" : {
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "清除 DNS 缓存"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "清除 DNS 快取"
+            "value" : "清理 DNS 快取"
           }
         }
       }
     },
     "GEO Databases" : {
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "GEO 数据库"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1264,12 +852,6 @@
     },
     "Global" : {
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "全局"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1280,16 +862,10 @@
     },
     "Global Mode" : {
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "全局连接"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "全局連接"
+            "value" : "全局模式"
           }
         }
       }
@@ -1297,12 +873,6 @@
     "Good luck to you  🙃" : {
       "extractionState" : "stale",
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "祝你好运  🙃"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1314,12 +884,6 @@
     "Health Check" : {
       "extractionState" : "manual",
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "健康检查"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1331,12 +895,6 @@
     "Hide Names" : {
       "extractionState" : "manual",
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "隐藏节点名"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1352,12 +910,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Host"
-          }
-        },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "主机名"
           }
         },
         "zh-Hant" : {
@@ -1377,12 +929,6 @@
             "value" : "Hosts"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "主机名"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1393,12 +939,6 @@
     },
     "hours" : {
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "小时"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1409,16 +949,10 @@
     },
     "Http Port" : {
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "HTTP 端口"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "HTTP 埠"
+            "value" : "Http Port"
           }
         }
       }
@@ -1428,12 +962,6 @@
     },
     "iCloud not available" : {
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "iCloud 不可用"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1444,28 +972,16 @@
     },
     "If you can not find ClashX in the settings, you can try reset daemon" : {
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "如果在设置里没找到ClashX,可以尝试重置守护程序"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "如果在設定裡沒找到ClashX,可以嘗試重置守護程序"
+            "value" : "如果在設定裡沒找到ClashX，可以嘗試重置守護程序。"
           }
         }
       }
     },
     "Install" : {
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "安装"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1476,12 +992,6 @@
     },
     "Interface Name" : {
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "接口名称"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1492,12 +1002,6 @@
     },
     "Invalid input" : {
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "输入不合法"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1508,12 +1012,6 @@
     },
     "ipv6" : {
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "IPv6"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1524,12 +1022,6 @@
     },
     "Legacy Install" : {
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "传统安装"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1541,12 +1033,6 @@
     "Level" : {
       "extractionState" : "manual",
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "级别"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1557,12 +1043,6 @@
     },
     "Load Balance" : {
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "负载均衡"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1579,16 +1059,10 @@
             "value" : "Load decrypted config failed"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "加载解密后的配置失败"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "載入解密後的配置失敗"
+            "value" : "無法載入解密後的訂閱檔"
           }
         }
       }
@@ -1596,16 +1070,10 @@
     "Log" : {
       "extractionState" : "manual",
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "日志"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "日誌"
+            "value" : "記錄"
           }
         }
       }
@@ -1613,48 +1081,30 @@
     "Log Filter" : {
       "extractionState" : "manual",
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "日志过滤"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "日誌過濾"
+            "value" : "記錄篩選"
           }
         }
       }
     },
     "Log Level" : {
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "日志级别"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "日誌級別"
+            "value" : "記錄等級"
           }
         }
       }
     },
     "Log system crashed." : {
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "日志系统崩溃。"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "日誌系統崩潰。"
+            "value" : "記錄已終止"
           }
         }
       }
@@ -1662,28 +1112,16 @@
     "Logs" : {
       "extractionState" : "manual",
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "日志"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "日誌"
+            "value" : "記錄"
           }
         }
       }
     },
     "Memory" : {
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "内存"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1695,12 +1133,6 @@
     "Memory Usage" : {
       "extractionState" : "stale",
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "内存占用"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1712,12 +1144,6 @@
     "Mihomo" : {
       "extractionState" : "stale",
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Mihomo"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1728,44 +1154,26 @@
     },
     "Mixed Port" : {
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "混合端口"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "混合埠"
+            "value" : "Mixed Port"
           }
         }
       }
     },
     "Need to Restart the ClashX to Take effect, Please start clashX manually" : {
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "需要重启ClashX生效，请手动启动ClashX"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "需要重啟ClashX生效，請手動啟動ClashX"
+            "value" : "需要重啟應用程式才能套用變更，請手動啟動ClashX。"
           }
         }
       }
     },
     "Network" : {
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "网络状态"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1776,12 +1184,6 @@
     },
     "Never" : {
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "从未"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1792,12 +1194,6 @@
     },
     "Never show again" : {
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "不再提示"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1808,12 +1204,6 @@
     },
     "none" : {
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "无"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1824,12 +1214,6 @@
     },
     "OK" : {
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "确定"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1840,80 +1224,50 @@
     },
     "Open Connection Details" : {
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "打开连接查看器"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "打開連接查看器"
+            "value" : "檢視連線資訊"
           }
         }
       }
     },
     "Open Dashboard" : {
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "打开控制台"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "打開控制台"
+            "value" : "開啟控制台"
           }
         }
       }
     },
     "Open Log" : {
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "打开日志"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "打開日誌"
+            "value" : "瀏覽記錄"
           }
         }
       }
     },
     "Open Menu" : {
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "打开菜单"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "打開菜單"
+            "value" : "開啟選單"
           }
         }
       }
     },
     "Open System Login Item Setting" : {
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "打开系统登录项设置"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "打開系統登錄項設定"
+            "value" : "開啟系統登入項目設定"
           }
         }
       }
@@ -1921,12 +1275,6 @@
     "Overview" : {
       "extractionState" : "manual",
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "概览"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1937,12 +1285,6 @@
     },
     "Pause Refresh" : {
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "machine_translated",
-            "value" : "暂停刷新"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "machine_translated",
@@ -1953,32 +1295,20 @@
     },
     "Please enable the location service for ClashX to detect your current WiFi network's SSID name and provide the auto-suspend services." : {
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "请允许ClashX使用定位服务来获取当前所连接的WiFi名称从而提供按需暂停服务。"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "請允許 ClashX 使用定位服務，以獲取您目前連接的 WiFi 名稱，並提供按需暫停服務。"
+            "value" : "請允許 ClashX 使用定位服務，以便根據您設定的 Wi-Fi 黑名單禁止代理。"
           }
         }
       }
     },
     "Ports Open Fail, Please try to restart ClashX" : {
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "端口打开失败，请尝试重启ClashX"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "端口打開失敗，請嘗試重啟ClashX"
+            "value" : "無法啟用對應 Port，請嘗試重啟 ClashX。"
           }
         }
       }
@@ -1986,12 +1316,6 @@
     "Process" : {
       "extractionState" : "manual",
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "进程"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2003,16 +1327,10 @@
     "Providers" : {
       "extractionState" : "manual",
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "提供商"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "提供商"
+            "value" : "服務商"
           }
         }
       }
@@ -2020,16 +1338,10 @@
     "Proxies" : {
       "extractionState" : "manual",
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "代理"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "代理"
+            "value" : "節點"
           }
         }
       }
@@ -2037,32 +1349,20 @@
     "Proxy" : {
       "extractionState" : "stale",
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "代理"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "代理"
+            "value" : "節點"
           }
         }
       }
     },
     "Proxy Mode" : {
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "出站模式"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "出站模式"
+            "value" : "路由模式"
           }
         }
       }
@@ -2070,16 +1370,10 @@
     "Proxy Provider" : {
       "extractionState" : "stale",
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "代理提供商"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "代理提供商"
+            "value" : "節點服務商"
           }
         }
       }
@@ -2087,44 +1381,26 @@
     "Proxy Provider Inline" : {
       "extractionState" : "stale",
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "代理提供商内联"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "代理提供商內嵌"
+            "value" : "節點服務商內嵌"
           }
         }
       }
     },
     "Proxy settings are changed by another process. ClashX is no longer the default system proxy." : {
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "系统代理设置已被另一个进程修改，ClashX不再是系统默认代理"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "代理設定被另一個程式更改。ClashX 不再是默認的系統代理"
+            "value" : "系統代理設定已被電腦上的另一個程式接管，ClashX 不再控制系統代理。"
           }
         }
       }
     },
     "Quit" : {
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "退出"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2135,44 +1411,26 @@
     },
     "Quit ClashX?" : {
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "退出ClashX?"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "退出 ClashX?"
+            "value" : "確定要結束 ClashX？"
           }
         }
       }
     },
     "Redir Port" : {
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "重定向端口"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "重導向埠"
+            "value" : "Redir Port"
           }
         }
       }
     },
     "Reduce alerts if notification permission is disabled" : {
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "在通知权限关闭时减少提示弹窗"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2183,16 +1441,10 @@
     },
     "Reload Config Fail" : {
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "重载配置文件失败"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "重新加載配置失敗"
+            "value" : "無法重載訂閱"
           }
         }
       }
@@ -2200,80 +1452,50 @@
     "Reload config file" : {
       "extractionState" : "stale",
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "重新加载配置文件"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "重新載入設定檔"
+            "value" : "重載訂閱"
           }
         }
       }
     },
     "Reload Config Succeed" : {
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "重载配置文件成功"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "重新加載配置成功"
+            "value" : "已重載訂閱"
           }
         }
       }
     },
     "Remote Config Format Error" : {
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "托管配置文件格式不正确"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "遠端配置格式錯誤"
+            "value" : "訂閱格式有誤"
           }
         }
       }
     },
     "Remote Config Update" : {
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "更新托管配置文件"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "遠程配置更新"
+            "value" : "更新訂閱"
           }
         }
       }
     },
     "Remote Config Update Fail" : {
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "托管配置文件更新失败"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "遠程配置更新失敗"
+            "value" : "無法更新訂閱"
           }
         }
       }
@@ -2287,12 +1509,6 @@
             "value" : "Requests"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "请求"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2302,16 +1518,17 @@
       }
     },
     "Reset" : {
-
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "重置"
+          }
+        }
+      }
     },
     "Reset Daemon" : {
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "重置守护程序"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2322,28 +1539,16 @@
     },
     "Reset User Defaults" : {
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "重置用户默认值"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "重置使用者預設值"
+            "value" : "重置應用程式設定"
           }
         }
       }
     },
     "Resume Refresh" : {
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "machine_translated",
-            "value" : "继续刷新"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "machine_translated",
@@ -2355,12 +1560,6 @@
     "Retest" : {
       "extractionState" : "manual",
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "重新测速"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2371,12 +1570,6 @@
     },
     "ReTest" : {
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "重新测速"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2388,16 +1581,10 @@
     "Rule" : {
       "extractionState" : "manual",
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "规则"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "規則"
+            "value" : "分流"
           }
         }
       }
@@ -2405,32 +1592,20 @@
     "Rule Inline" : {
       "extractionState" : "stale",
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "规则内联"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "規則內嵌"
+            "value" : "分流規則內嵌"
           }
         }
       }
     },
     "Rule Mode" : {
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "规则判断"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "規則模式"
+            "value" : "分流模式"
           }
         }
       }
@@ -2438,16 +1613,10 @@
     "Rules" : {
       "extractionState" : "manual",
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "规则"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "規則"
+            "value" : "分流"
           }
         }
       }
@@ -2461,12 +1630,6 @@
             "value" : "Script"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "脚本"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2478,12 +1641,6 @@
     "Search" : {
       "extractionState" : "manual",
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "搜索"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2494,12 +1651,6 @@
     },
     "Should be a least 1 hour" : {
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "至少需要1小时间隔"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2509,17 +1660,18 @@
       }
     },
     "size: %lld" : {
-
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "大小：%lld"
+          }
+        }
+      }
     },
     "Sniff Host" : {
       "extractionState" : "manual",
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "嗅探主机"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2530,12 +1682,6 @@
     },
     "Sniffer" : {
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "嗅探"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2546,16 +1692,10 @@
     },
     "Socks5 Port" : {
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "SOCKS5 端口"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "SOCKS5 埠"
+            "value" : "Socks5 Port"
           }
         }
       }
@@ -2563,12 +1703,6 @@
     "Source" : {
       "extractionState" : "manual",
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "来源"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2579,12 +1713,6 @@
     },
     "Source IP" : {
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "machine_translated",
-            "value" : "来源 IP"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "machine_translated",
@@ -2594,20 +1722,21 @@
       }
     },
     "Speed" : {
-
-    },
-    "Start Meta Fail!" : {
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "打开Meta 失败!"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "啟動 Meta 失敗！"
+            "value" : "速度"
+          }
+        }
+      }
+    },
+    "Start Meta Fail!" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "無法啟動 Meta！"
           }
         }
       }
@@ -2621,12 +1750,6 @@
             "value" : "Status"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "状态"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2638,28 +1761,16 @@
     "Stop All" : {
       "extractionState" : "manual",
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "全部断开"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "全部斷開"
+            "value" : "全部中止"
           }
         }
       }
     },
     "Subscription Usage" : {
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "订阅用量"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2670,12 +1781,6 @@
     },
     "Succeed!" : {
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "成功！"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2686,12 +1791,6 @@
     },
     "Success" : {
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "成功"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2703,12 +1802,6 @@
     "Success!" : {
       "extractionState" : "stale",
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "成功！"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2719,12 +1812,6 @@
     },
     "Sys Proxy" : {
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "machine_translated",
-            "value" : "系统代理"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "machine_translated",
@@ -2735,63 +1822,46 @@
     },
     "System Proxy" : {
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "设置系统代理"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "系統代理"
+            "value" : "啟用系統代理"
           }
         }
       }
     },
     "System Proxy Changed" : {
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "系统代理设置已修改"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "系統代理已更改"
+            "value" : "系統代理已變更"
           }
         }
       }
     },
     "Tap to reload config" : {
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "点击重载配置文件"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "點擊重新加載配置"
+            "value" : "點選以重載訂閱"
           }
         }
       }
     },
     "Test Latency" : {
-
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "測試延遲"
+          }
+        }
+      }
     },
     "Testing" : {
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "测速中"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2802,74 +1872,50 @@
     },
     "The active connections will be interrupted." : {
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "活动的连接将被强制打断。"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "活躍的連接將被中斷。"
+            "value" : "作用中的連線將被中斷。"
           }
         }
       }
     },
     "The core process has exited unexpectedly." : {
       "localizations" : {
-        "zh-Hans" : {
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "核心进程意外退出。"
+            "value" : "核心服務意外終止。"
           }
         }
       }
     },
     "The remote config name is duplicated" : {
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "托管配置文件名称重复"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "遠端配置名稱重複"
+            "value" : "訂閱名稱已存在"
           }
         }
       }
     },
     "The status icon is coverd or hide by other app." : {
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "菜单栏图标被刘海屏遮挡或者被其他app隐藏，请检查菜单栏状态。"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "狀態圖標被其他應用覆蓋或隱藏"
+            "value" : "狀態列圖示被其他程式取代或隱藏。"
           }
         }
       }
     },
     "This will remove all app settings and quit ClashX. Continue?" : {
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "这将清除所有应用设置并退出 ClashX。是否继续？"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "這將清除所有應用程式設定並退出 ClashX。是否繼續？"
+            "value" : "這將重置所有設定並結束 ClashX。是否繼續？"
           }
         }
       }
@@ -2877,12 +1923,6 @@
     "Time" : {
       "extractionState" : "manual",
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "时间"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2899,12 +1939,6 @@
             "value" : "Recent Network Activity"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "近期网络活动"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2915,12 +1949,6 @@
     },
     "total: %d, success: %d" : {
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "共计: %d, 成功: %d"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2931,12 +1959,6 @@
     },
     "Traffic" : {
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "流量"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2946,36 +1968,31 @@
       }
     },
     "TUN" : {
-
-    },
-    "TUN IP Stack" : {
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "TUN IP 栈"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "TUN IP 堆疊"
+            "value" : "Tun"
+          }
+        }
+      }
+    },
+    "TUN IP Stack" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tun IP 堆疊"
           }
         }
       }
     },
     "Tun Mode" : {
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "TUN 模式"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "TUN 模式"
+            "value" : "啟用 Tun 模式"
           }
         }
       }
@@ -2983,12 +2000,6 @@
     "UL" : {
       "extractionState" : "manual",
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "上行"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3000,12 +2011,6 @@
     "UL Speed" : {
       "extractionState" : "manual",
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "上传速度"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3023,12 +2028,6 @@
             "value" : "Unknown"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "未知"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3039,12 +2038,6 @@
     },
     "Up" : {
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "上传"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3056,12 +2049,6 @@
     "Update" : {
       "extractionState" : "manual",
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "更新"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3073,12 +2060,6 @@
     "Update All" : {
       "extractionState" : "manual",
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "更新全部"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3089,28 +2070,16 @@
     },
     "Update All Providers" : {
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "更新所有提供商"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "更新所有提供商"
+            "value" : "更新所有服務商"
           }
         }
       }
     },
     "Update Alpha Meta core" : {
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "更新 Alpha Meta 内核"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3121,28 +2090,16 @@
     },
     "Update external resource complete" : {
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "更新外部资源完成"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "更新外部資源完成"
+            "value" : "已更新外部資源"
           }
         }
       }
     },
     "Update GEO Databases" : {
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "更新 GEO 数据库"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3154,12 +2111,6 @@
     "Update GEOIP Database" : {
       "extractionState" : "stale",
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "更新IP数据库"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3170,28 +2121,16 @@
     },
     "Update remote config update interval" : {
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "远程配置自动更新间隔"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "更新遠程配置更新間隔"
+            "value" : "設定更新訂閱頻率"
           }
         }
       }
     },
     "Update Tips" : {
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "更新提示"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3203,12 +2142,6 @@
     "Updated %@" : {
       "extractionState" : "manual",
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "更新于 %@"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3219,12 +2152,6 @@
     },
     "Updating" : {
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "更新中"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3236,12 +2163,6 @@
     "Updating GEO Databases..." : {
       "extractionState" : "stale",
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "更新 GEO 数据库..."
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3259,12 +2180,6 @@
             "value" : "Upload"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "上传速度"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3275,12 +2190,6 @@
     },
     "Upload Total" : {
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "总上传"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3292,28 +2201,16 @@
     "Use reload config to try reconnect." : {
       "extractionState" : "stale",
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "使用重载配置文件按钮尝试重新连接"
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "使用重新加載配置嘗試重新連接"
+            "value" : "重載訂閱以嘗試重新連線"
           }
         }
       }
     },
     "Version: " : {
       "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "版本: "
-          }
-        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
