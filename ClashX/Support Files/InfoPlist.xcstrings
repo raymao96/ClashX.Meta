@@ -16,12 +16,6 @@
             "state" : "translated",
             "value" : "ClashX Meta"
           }
-        },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "ClashX Meta"
-          }
         }
       }
     },
@@ -39,12 +33,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Copyright © 2021年 yichengchen. 保留所有权利。"
-          }
-        },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Copyright © 2021年 yichengchen. 保留所有權利。"
           }
         }
       }
@@ -64,12 +52,6 @@
             "state" : "translated",
             "value" : "ClashX 使用位置信息来检测当前 Wi-Fi 网络的 SSID 名称，以提供自动挂起服务。"
           }
-        },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "ClashX 使用位置資訊來偵測目前 Wi-Fi 網路的 SSID 名稱，以提供自動掛起服務。"
-          }
         }
       }
     },
@@ -87,12 +69,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ClashX 使用位置信息来检测当前 Wi-Fi 网络的 SSID 名称，以提供自动挂起服务。"
-          }
-        },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "ClashX 使用位置資訊來偵測目前 Wi-Fi 網路的 SSID 名稱，以提供自動掛起服務。"
           }
         }
       }

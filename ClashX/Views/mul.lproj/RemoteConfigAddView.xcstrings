@@ -28,12 +28,6 @@
             "state" : "translated",
             "value" : "Age 私钥："
           }
-        },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Age 私鑰："
-          }
         }
       }
     },
@@ -64,12 +58,6 @@
             "state" : "translated",
             "value" : "链接："
           }
-        },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "連結："
-          }
         }
       }
     },
@@ -88,12 +76,6 @@
             "state" : "translated",
             "value" : "配置名称："
           }
-        },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "設定名稱："
-          }
         }
       }
     },
@@ -111,12 +93,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "（可选）"
-          }
-        },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "（可選）"
           }
         }
       }
