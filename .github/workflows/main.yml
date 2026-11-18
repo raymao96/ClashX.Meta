@@ -48,6 +48,7 @@ jobs:
         echo "version=$version" >> "$GITHUB_OUTPUT"
         echo "tag=$prefix-$version" >> "$GITHUB_OUTPUT"
         echo "title=ClashX Meta $locale $version" >> "$GITHUB_OUTPUT"
+        echo "asset=ClashX Meta $locale.dmg" >> "$GITHUB_OUTPUT"
 
     - name: install deps
       run: |
@@ -73,19 +74,45 @@ jobs:
       run: |
         xcodebuild archive -project ClashX.xcodeproj -scheme ClashX\ Meta -archivePath archive/ClashX.xcarchive -showBuildTimingSummary -allowProvisioningUpdates
 
-    - name: create zip
-      run: ditto -c -k --sequesterRsrc --keepParent archive/ClashX.xcarchive/Products/Applications/ClashX\ Meta.app "ClashX Meta.zip"
+    - uses: actions/setup-python@v6
+      with:
+        python-version: '3.13'
+
+    - name: build universal DMG
+      env:
+        RELEASE_ASSET: ${{ steps.release.outputs.asset }}
+      run: |
+        app="$PWD/archive/ClashX.xcarchive/Products/Applications/ClashX Meta.app"
+        architectures="$(xcrun lipo -archs "$app/Contents/MacOS/ClashX Meta")"
+        for required_arch in arm64 x86_64; do
+          if [[ " $architectures " != *" $required_arch "* ]]; then
+            echo "Missing $required_arch architecture (found: $architectures)" >&2
+            exit 1
+          fi
+        done
+        python -m pip install 'dmgbuild==2.0.0'
+        python -m dmgbuild -s scripts/dmg-settings.py \
+          -D "app=$app" -D "background=$PWD/scripts/dmg-background.png" \
+          "${RELEASE_ASSET%.dmg}" "$RELEASE_ASSET"
+        hdiutil verify "$RELEASE_ASSET"
 
     - name: publish release
       env:
         RELEASE_TAG: ${{ steps.release.outputs.tag }}
         RELEASE_TITLE: ${{ steps.release.outputs.title }}
+        RELEASE_ASSET: ${{ steps.release.outputs.asset }}
       run: |
         git tag -f "$RELEASE_TAG" "$GITHUB_SHA"
         git push origin "refs/tags/$RELEASE_TAG:refs/tags/$RELEASE_TAG" --force
         if gh release view "$RELEASE_TAG" >/dev/null 2>&1; then
-          gh release upload "$RELEASE_TAG" "ClashX Meta.zip" --clobber
+          gh release upload "$RELEASE_TAG" "$RELEASE_ASSET" --clobber
+          legacy_zip="$(gh release view "$RELEASE_TAG" --json assets --jq '.assets[] | select(.name == "ClashX.Meta.zip" or .name == "ClashX Meta.zip") | .name')"
+          while IFS= read -r asset; do
+            if [ -n "$asset" ]; then
+              gh release delete-asset "$RELEASE_TAG" "$asset" --yes
+            fi
+          done <<< "$legacy_zip"
           gh release edit "$RELEASE_TAG" --title "$RELEASE_TITLE" --draft=false
         else
-          gh release create "$RELEASE_TAG" "ClashX Meta.zip" --verify-tag --title "$RELEASE_TITLE" --generate-notes
+          gh release create "$RELEASE_TAG" "$RELEASE_ASSET" --verify-tag --title "$RELEASE_TITLE" --generate-notes
         fi
