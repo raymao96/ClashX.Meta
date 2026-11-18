@@ -1031,11 +1031,11 @@
             <objects>
                 <viewController showSeguePresentationStyle="single" id="UWQ-O3-RVk" customClass="AboutViewController" customModule="ClashX_Meta" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" id="JCR-G0-H6V">
-                        <rect key="frame" x="0.0" y="0.0" width="451" height="300"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="232"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
                             <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="4SV-eS-si0">
-                                <rect key="frame" x="181" y="190" width="90" height="90"/>
+                                <rect key="frame" x="115" y="122" width="90" height="90"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="90" id="FDV-Kt-1r8"/>
                                     <constraint firstAttribute="height" constant="90" id="JiZ-gC-JO8"/>
@@ -1043,7 +1043,7 @@
                                 <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="AppIcon" id="Vx1-G4-Xby"/>
                             </imageView>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="prU-ck-7Na">
-                                <rect key="frame" x="180" y="165" width="91" height="17"/>
+                                <rect key="frame" x="114" y="97" width="91" height="17"/>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="ClashX Meta" id="MzG-sW-3g7">
                                     <font key="font" metaFont="systemBold" size="14"/>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -1054,7 +1054,7 @@
                                 </attributedString>
                             </textField>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="gP8-vp-ASP">
-                                <rect key="frame" x="168" y="134" width="115" height="16"/>
+                                <rect key="frame" x="102" y="66" width="115" height="16"/>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Version:1.1.0(1.1.0)" id="pVE-Ti-FcK">
                                     <font key="font" metaFont="system"/>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -1064,97 +1064,8 @@
                                     <fragment content="#bc-ignore!"/>
                                 </attributedString>
                             </textField>
-                            <stackView distribution="fill" orientation="horizontal" alignment="top" spacing="5" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gM7-9K-QZN">
-                                <rect key="frame" x="16" y="31" width="419" height="40"/>
-                                <subviews>
-                                    <stackView distribution="fill" orientation="vertical" alignment="leading" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Eta-0y-44x">
-                                        <rect key="frame" x="0.0" y="0.0" width="147" height="40"/>
-                                        <subviews>
-                                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="8pQ-pI-ToK">
-                                                <rect key="frame" x="-2" y="24" width="142" height="16"/>
-                                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="GitHub for Clash Meta:" allowsEditingTextAttributes="YES" id="lsq-AW-K0M">
-                                                    <font key="font" metaFont="system"/>
-                                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
-                                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
-                                                </textFieldCell>
-                                                <attributedString key="userComments">
-                                                    <fragment content="#bc-ignore!"/>
-                                                </attributedString>
-                                            </textField>
-                                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="kch-A0-ga2">
-                                                <rect key="frame" x="-2" y="0.0" width="151" height="16"/>
-                                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="GitHub for ClashX Meta:" id="89f-5u-Eo0">
-                                                    <font key="font" metaFont="system"/>
-                                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
-                                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
-                                                </textFieldCell>
-                                                <attributedString key="userComments">
-                                                    <fragment content="#bc-ignore!"/>
-                                                </attributedString>
-                                            </textField>
-                                        </subviews>
-                                        <visibilityPriorities>
-                                            <integer value="1000"/>
-                                            <integer value="1000"/>
-                                        </visibilityPriorities>
-                                        <customSpacing>
-                                            <real value="3.4028234663852886e+38"/>
-                                            <real value="3.4028234663852886e+38"/>
-                                        </customSpacing>
-                                    </stackView>
-                                    <stackView distribution="fill" orientation="vertical" alignment="leading" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BaZ-rB-g4s">
-                                        <rect key="frame" x="152" y="0.0" width="267" height="40"/>
-                                        <subviews>
-                                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="q4m-SB-uHV" customClass="HyperlinkTextField" customModule="ClashX_Meta" customModuleProvider="target">
-                                                <rect key="frame" x="-2" y="24" width="242" height="16"/>
-                                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="https://github.com/MetaCubeX/mihomo" id="Bej-j7-KKV">
-                                                    <font key="font" metaFont="system"/>
-                                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
-                                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
-                                                </textFieldCell>
-                                                <attributedString key="userComments">
-                                                    <fragment content="#bc-ignore!"/>
-                                                </attributedString>
-                                                <userDefinedRuntimeAttributes>
-                                                    <userDefinedRuntimeAttribute type="string" keyPath="href" value="https://github.com/MetaCubeX/Clash.Meta"/>
-                                                </userDefinedRuntimeAttributes>
-                                            </textField>
-                                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="bSi-kz-Dkf" customClass="HyperlinkTextField" customModule="ClashX_Meta" customModuleProvider="target">
-                                                <rect key="frame" x="-2" y="0.0" width="271" height="16"/>
-                                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="https://github.com/MetaCubeX/ClashX.Meta" id="9ox-Fc-Wk3">
-                                                    <font key="font" metaFont="system"/>
-                                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
-                                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
-                                                </textFieldCell>
-                                                <attributedString key="userComments">
-                                                    <fragment content="#bc-ignore!"/>
-                                                </attributedString>
-                                                <userDefinedRuntimeAttributes>
-                                                    <userDefinedRuntimeAttribute type="string" keyPath="href" value="https://github.com/MetaCubeX/ClashX.Meta"/>
-                                                </userDefinedRuntimeAttributes>
-                                            </textField>
-                                        </subviews>
-                                        <visibilityPriorities>
-                                            <integer value="1000"/>
-                                            <integer value="1000"/>
-                                        </visibilityPriorities>
-                                        <customSpacing>
-                                            <real value="3.4028234663852886e+38"/>
-                                            <real value="3.4028234663852886e+38"/>
-                                        </customSpacing>
-                                    </stackView>
-                                </subviews>
-                                <visibilityPriorities>
-                                    <integer value="1000"/>
-                                    <integer value="1000"/>
-                                </visibilityPriorities>
-                                <customSpacing>
-                                    <real value="3.4028234663852886e+38"/>
-                                    <real value="3.4028234663852886e+38"/>
-                                </customSpacing>
-                            </stackView>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="dDI-8K-OOb">
-                                <rect key="frame" x="185" y="111" width="82" height="16"/>
+                                <rect key="frame" x="119" y="43" width="82" height="16"/>
                                 <textFieldCell key="cell" lineBreakMode="clipping" title="Core Version" id="zwo-q5-k5N">
                                     <font key="font" metaFont="system"/>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -1162,7 +1073,7 @@
                                 </textFieldCell>
                             </textField>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="qla-PJ-sDO">
-                                <rect key="frame" x="187" y="88" width="77" height="16"/>
+                                <rect key="frame" x="121" y="20" width="77" height="16"/>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="2018-08-19" id="aib-YP-mvk">
                                     <font key="font" metaFont="system"/>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -1179,12 +1090,10 @@
                             <constraint firstItem="dDI-8K-OOb" firstAttribute="centerX" secondItem="JCR-G0-H6V" secondAttribute="centerX" id="Ate-JW-qgM"/>
                             <constraint firstItem="prU-ck-7Na" firstAttribute="top" secondItem="4SV-eS-si0" secondAttribute="bottom" constant="8" id="EGo-fK-wUy"/>
                             <constraint firstItem="gP8-vp-ASP" firstAttribute="top" secondItem="prU-ck-7Na" secondAttribute="bottom" constant="15" id="JcF-C9-rIW"/>
-                            <constraint firstAttribute="bottom" secondItem="gM7-9K-QZN" secondAttribute="bottom" constant="31" id="LWM-0c-SHA"/>
+                            <constraint firstAttribute="bottom" secondItem="qla-PJ-sDO" secondAttribute="bottom" constant="20" id="LWM-0c-SHA"/>
                             <constraint firstItem="dDI-8K-OOb" firstAttribute="top" secondItem="gP8-vp-ASP" secondAttribute="bottom" constant="7" id="RN6-aw-2t3"/>
                             <constraint firstItem="gP8-vp-ASP" firstAttribute="centerX" secondItem="JCR-G0-H6V" secondAttribute="centerX" id="TJb-U7-nQK"/>
                             <constraint firstItem="4SV-eS-si0" firstAttribute="centerX" secondItem="JCR-G0-H6V" secondAttribute="centerX" id="cjh-4c-FsB"/>
-                            <constraint firstItem="gM7-9K-QZN" firstAttribute="top" secondItem="qla-PJ-sDO" secondAttribute="bottom" constant="17" id="dto-mD-hu2"/>
-                            <constraint firstItem="gM7-9K-QZN" firstAttribute="centerX" secondItem="JCR-G0-H6V" secondAttribute="centerX" id="i2x-En-NFp"/>
                             <constraint firstItem="qla-PJ-sDO" firstAttribute="top" secondItem="dDI-8K-OOb" secondAttribute="bottom" constant="7" id="npg-f2-wa2"/>
                             <constraint firstItem="4SV-eS-si0" firstAttribute="top" secondItem="JCR-G0-H6V" secondAttribute="top" constant="20" id="q5j-F9-XGY"/>
                         </constraints>
@@ -1204,17 +1113,17 @@
             <objects>
                 <viewController title="Remote Configs" identifier="RemoteConfigViewController" storyboardIdentifier="RemoteConfigViewController" showSeguePresentationStyle="single" id="6WI-Hi-v9j" customClass="RemoteConfigViewController" customModule="ClashX_Meta" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" id="BIo-GY-n0C">
-                        <rect key="frame" x="0.0" y="0.0" width="403" height="256"/>
+                        <rect key="frame" x="0.0" y="0.0" width="413" height="256"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
                             <scrollView autohidesScrollers="YES" horizontalLineScroll="19" horizontalPageScroll="10" verticalLineScroll="19" verticalPageScroll="10" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LqM-v5-9Fo">
-                                <rect key="frame" x="20" y="60" width="363" height="140"/>
+                                <rect key="frame" x="20" y="60" width="373" height="140"/>
                                 <clipView key="contentView" id="QHV-vI-z1z">
-                                    <rect key="frame" x="1" y="1" width="361" height="138"/>
+                                    <rect key="frame" x="1" y="1" width="371" height="138"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <subviews>
                                         <tableView verticalHuggingPriority="750" allowsExpansionToolTips="YES" columnAutoresizingStyle="lastColumnOnly" multipleSelection="NO" emptySelection="NO" autosaveColumns="NO" typeSelect="NO" rowSizeStyle="automatic" headerView="x46-X9-TXT" viewBased="YES" id="I57-0R-Jyy">
-                                            <rect key="frame" x="0.0" y="0.0" width="361" height="113"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="371" height="113"/>
                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                             <size key="intercellSpacing" width="3" height="2"/>
                                             <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
@@ -1298,7 +1207,7 @@
                                                         </tableCellView>
                                                     </prototypeCellViews>
                                                 </tableColumn>
-                                                <tableColumn identifier="updateTime" width="52" minWidth="40" maxWidth="1000" id="xoc-hs-9qa">
+                                                <tableColumn identifier="updateTime" width="100" minWidth="100" maxWidth="1000" id="xoc-hs-9qa">
                                                     <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" title="Update Time">
                                                         <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                                         <color key="backgroundColor" name="headerColor" catalog="System" colorSpace="catalog"/>
@@ -1349,7 +1258,7 @@
                                     <constraint firstAttribute="height" constant="140" id="dPv-dN-jKP"/>
                                 </constraints>
                                 <scroller key="horizontalScroller" hidden="YES" wantsLayer="YES" verticalHuggingPriority="750" horizontal="YES" id="LW5-3e-jIu">
-                                    <rect key="frame" x="1" y="123" width="361" height="16"/>
+                                    <rect key="frame" x="1" y="123" width="371" height="16"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </scroller>
                                 <scroller key="verticalScroller" hidden="YES" wantsLayer="YES" verticalHuggingPriority="750" horizontal="NO" id="xth-Yd-t6V">
@@ -1357,7 +1266,7 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                 </scroller>
                                 <tableHeaderView key="headerView" wantsLayer="YES" id="x46-X9-TXT">
-                                    <rect key="frame" x="0.0" y="0.0" width="361" height="25"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="371" height="25"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableHeaderView>
                             </scrollView>
@@ -1539,7 +1448,7 @@
                                                         </tableCellView>
                                                     </prototypeCellViews>
                                                 </tableColumn>
-                                                <tableColumn identifier="secret" width="50" minWidth="40" maxWidth="1000" id="5hn-k8-CWe">
+                                                <tableColumn identifier="secret" width="88" minWidth="88" maxWidth="1000" id="5hn-k8-CWe">
                                                     <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" title="Api Secret">
                                                         <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                                         <color key="backgroundColor" name="headerColor" catalog="System" colorSpace="catalog"/>
