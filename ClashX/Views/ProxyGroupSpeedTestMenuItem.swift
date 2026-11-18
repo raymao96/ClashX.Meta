@@ -64,11 +64,18 @@ private class ProxyGroupSpeedTestMenuItemView: MenuItemBaseView {
         label = VibrancyTextField(labelWithString: title)
         label.font = type(of: self).labelFont
         label.sizeToFit()
-        let rect = NSRect(x: 0, y: 0, width: label.bounds.width + 40, height: 20)
+        let rect = NSRect(x: 0, y: 0, width: label.bounds.width + 40, height: Self.menuBarHeight)
         super.init(frame: rect, autolayout: false)
-        addSubview(label)
-        label.frame = NSRect(x: 20, y: 0, width: label.bounds.width, height: 20)
+        effectView.addSubview(label)
+        label.translatesAutoresizingMaskIntoConstraints = false
+        label.alignment = .left
         label.textColor = NSColor.labelColor
+    }
+
+    override func layout() {
+        super.layout()
+        label.sizeToFit()
+        label.frame.origin = CGPoint(x: 15, y: (effectView.bounds.height - label.bounds.height) / 2)
     }
 
     @available(*, unavailable)
@@ -96,6 +103,7 @@ private class ProxyGroupSpeedTestMenuItemView: MenuItemBaseView {
         else { return }
 
         label.stringValue = NSLocalizedString("Testing", comment: "")
+        needsLayout = true
         enclosingMenuItem?.isEnabled = false
         setNeedsDisplay()
 
@@ -119,6 +127,7 @@ private class ProxyGroupSpeedTestMenuItemView: MenuItemBaseView {
         }
 
         label.stringValue = menu.title
+        needsLayout = true
         menu.isEnabled = true
         setNeedsDisplay()
     }
